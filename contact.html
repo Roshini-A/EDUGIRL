@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	 <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap" rel="stylesheet">
+     <style type="text/css">
+     	*{
+         	padding: 0;
+         	margin: 0;
+         	font-family: 'Texturina', serif;
+         	box-sizing: border-box;
+         }
+     	header{
+ 			width:100%;
+ 			height:100vh;
+ 			background-image: url('pic2.jpg');
+ 			background-size:cover;
+ 			background-repeat: no-repeat;
+
+ 		}
+        .container{
+        	background-color: white;
+             width: 600px;
+             height:500px;
+             border:15px blue;
+             padding: 50px;
+             margin: 30px;
+        	justify-content: space-between;
+        	text-align: center;
+        	position: relative;
+       
+        	left:350px;
+        }
+        nav{
+    	background: rgba(0,0,0,0.2);
+    	height: 15vh;
+    	justify-content: space-between;
+    	width: 100%;
+    }
+    .tit{
+    	width:25%;
+    	margin-top: 23px;
+    	text-align: center;
+    	float: left;
+    	color:white;
+      
+        font-weight: bold;
+
+    }
+    .links{
+    	position: relative;
+    	left:240px;
+    	top:40px;
+        width: 40%;
+    	justify-content: space-around;
+    	display: flex;
+    }
+
+    a:active,a:link,a:visited{
+    	color:white;
+    	text-decoration: none;
+    }  
+   
+    a:hover{
+    	background-color: black;
+    }
+    .icon-container {
+       margin-bottom: 20px;
+       padding: 7px 0;
+      font-size: 24px;
+   }
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+ 
+ 
+  cursor: pointer;
+  font-size: 17px;
+}
+   input[type=text] {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  
+}
+
+
+        
+    </style>
+</head>
+<body>
+	<header>
+		<nav>
+ 		<div class="topbar">
+ 		<div class="tit"><h1>CONTACT</h1></div>
+ 		<div class="links">	
+ 		<a href="index.html">HOME</a>
+ 		<a href="about.html">ABOUT US</a>
+ 		<a href="donate.html">DONATE</a>
+ 		<a class="active" href="contact.html">CONTACT</a>
+ 	    </div>
+       </div>	
+     </nav>  
+            <div class="container" >
+		
+		<form>
+
+		    <h4>CONTACT OUR CUSTOMER CARE FOR ANY QUERIES</h4>
+		    <i class="fa fa-envelope"></i> Edugirl@gmail.com<br>
+		    <i class="fa fa-mobile"></i> 9625432123
+		    <div>
+		    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="name" placeholder="John M. Doe">
+            </div>
+            <div>
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            </div>
+            <div>
+            <label for="city"><i class="fa fa-mobile"></i> Mobile</label>
+            <input type="text" id="city" name="mobile" placeholder="Mobile Number">
+            </div>
+            <div>
+            <label for="msg">Enter any Queries</label>
+            <input type="text" id="msg" name="message" placeholder="Enter a message">
+            </div>
+            <div>
+            <input type="submit"  value="Submit" class="btn">
+            </div>
+        </form>
+            
+          </div>  	    
+	    
+    </header>      
+</body>
+</html>
